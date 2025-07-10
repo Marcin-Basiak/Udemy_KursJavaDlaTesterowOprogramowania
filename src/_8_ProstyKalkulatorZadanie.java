@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class _8_HomeWorkCalculator {
+public class _8_ProstyKalkulatorZadanie {
     public static void main(String[] args) {
         Scanner getNumbers = new Scanner(System.in);
         System.out.println("> Podstawowe operacje matematyczne na 2 podanych przez uzytkownika liczbach");
