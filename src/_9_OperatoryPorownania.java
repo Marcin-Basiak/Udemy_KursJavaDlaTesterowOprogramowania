@@ -11,16 +11,11 @@ public class _9_OperatoryPorownania {
         System.out.println("Prosze podaj druga liczbe:");
         int secondNumber = getNumbers.nextInt();
 
-        System.out.println("Czy " + firstNumber + " > " + secondNumber + "?\n\t" + (firstNumber > secondNumber));
-
+        System.out.println("\nCzy " + firstNumber + " > " + secondNumber + "?\n\t" + (firstNumber > secondNumber));
         System.out.println("\nCzy " + firstNumber + " < " + secondNumber + "?\n\t" + (firstNumber < secondNumber));
-
         System.out.println("\nCzy " + firstNumber + " >= " + secondNumber + "?\n\t" + (firstNumber >= secondNumber));
-
         System.out.println("\nCzy " + firstNumber + " <= " + secondNumber + "?\n\t" + (firstNumber <= secondNumber));
-
         System.out.println("\nCzy " + firstNumber + " = " + secondNumber + "?\n\t" + (firstNumber == secondNumber));
-
         System.out.println("\nCzy " + firstNumber + " != " + secondNumber + "?\n\t" + (firstNumber != secondNumber));
     }
 }
