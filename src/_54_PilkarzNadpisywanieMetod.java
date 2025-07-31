@@ -8,9 +8,13 @@ public class _54_PilkarzNadpisywanieMetod extends _53_OsobaNadpisywanieMetod{
         System.out.println("Wywolanie konstruktora z klasy potomnej/podrzednej \"_54_PilkarzNadpisywanieMetod\":");
     }
 
+    // Uzycie slowa kluczowego "super" daje dostep do klasy bazowej/nadrzednej - dostep do pol i metod z klasy bazowej.
     public void jedz(){
+        // Wywolanie metody "jedz" z klasy bazowej/nadrzednej.
+        super.jedz();
+        // I dodatkowo dodanie nowych komunikatów.
         System.out.println("> Nadpisanie metody (method overriding) \"jedz\" z klasy \"_53_OsobaNadpisywanieMetod\" metoda \"jedz\" z klasy \"_54_PilkarzNadpisywanieMetod\".");
-        System.out.println("> Jestem pilkarzem dlatego zamiast rosolu lubie jesc banana i bulke.");
+        System.out.println("> Jestem pilkarzem dlatego lubie jesc banana i bulke.");
     }
 
     public void grajWPilke(){
