@@ -1,6 +1,6 @@
 package _68_InterfejsWebDriver_Zadanie;
 
-public class _9_InterfejsWebDriverEnum_Test {
+public class _9_InterfejsWebDriverTest_Enum {
 
     public static void main(String[] args) {
 
